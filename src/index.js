@@ -1,8 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import { AppProvider } from './context'
 
-ReactDOM.render(<App />, document.getElementById("root"));
-
-serviceWorker.register();
+ReactDOM.render(
+  <React.StrictMode>
+    <AppProvider>
+      <App />
+    </AppProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+)
