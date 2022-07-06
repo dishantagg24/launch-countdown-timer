@@ -1,11 +1,9 @@
 .box {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(180deg, #2c2c44, #2c2c44 60%, #32364e 65%);
+    background: linear-gradient(180deg, #2c2c44, #2c2c44 50%, #32364e 53%);
     box-shadow: 0 8px 0 -1px #232337;
     margin: 10px;
     border-radius: 10px;
-    padding: 80px;
+    padding: 60px;
     color: #fb6087;
     font-size: 30px;
     font-weight: 700;

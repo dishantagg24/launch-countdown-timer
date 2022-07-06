@@ -18,3 +18,14 @@ footer {
     left: 0;
     z-index: -1;
 }
+
+.attribution {
+    position: relative;
+    bottom: 32px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+a {
+    color: #fb6087;
+}

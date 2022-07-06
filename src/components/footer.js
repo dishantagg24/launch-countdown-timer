@@ -21,6 +21,20 @@ export const Footer = () => {
           <img src={InstagramIcon} alt='insta-icon' />
         </li>
       </ul>
+      <div class='attribution'>
+        Challenge by{' '}
+        <b>
+          <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
+            {' '}
+            Frontend Mentor
+          </a>
+          .
+        </b>{' '}
+        Coded by{' '}
+        <b>
+          <a href='https://github.com/dishantagg24'>Dishant Aggarwal</a>.
+        </b>
+      </div>
     </footer>
   );
 };
