@@ -1,0 +1,20 @@
+footer {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 30%;
+    margin: 50px auto;
+}
+
+.hill-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
